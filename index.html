@@ -7,14 +7,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <a href="https:www.google.com.ar">ir a google</a>
     <a href="#abajo">ir abajo</a>
     <p id="#arriba">soy arriba</p>
-    <h1 id="arriba">Bienvenidos</h1>
-    <h2>Mi nombre es lucas</h2>
-    <h3>estamos mejorando la pagina</h3>
 
-    <img src="image/puente.jpg" alt="puente y ciudad" />
+<section class="encabezado-container"> 
+    <div class="encabezado">
+    <h1 id="arriba">Bienvenidos</h1>
+  </div>
+
+
+<div class="segunda-linea">
+    <h2>Mi nombre es Lucas</h2>
+    <h3>Estamos mejorando la pagina</h3>
+  </div>
+  
+</section>
+<section class="img-section">
+
+    <div class="container-img">
+      <h1 class="img-title">Ciudad</h1>
+      <img src="image/puente.jpg" alt="puente y ciudad" />
+    </div>
+  </section>
+
+   <div class="video-audio">
     <iframe
       width="560"
       height="315"
@@ -25,37 +43,28 @@
       allowfullscreen
     ></iframe>
     <audio controls src="audio/hola.mp3"></audio>
-  </body>
-
+   </div>
+    
+  
+   <div class="form-container">
   <form action="/" method="post" enctype="application/x-www-form-urlencoded">
     <form action="">
 
-    <label for="text">nombre y apellido</label>
+    <label for="text">Nombre y Apellido</label>
     <input type="text" name="text" />
-
-    <label for="date">Elija fecha</label>
-    <input type="date" name="date" />
-
-    <label for="password">ingrese contraseña</label>
-    <input type="password" name="password" />
 
     <input type="button" value="ingresar" />
     <input type="reset" value="resetear" />
 
-    <label for="chec">Elija</label>
-    <input type="checkbox" name="check" />
+    </form>
+</div>
+<div class="footer">
+<footer>Contacto: luquititas90@gmail.com</footer>
+<footer>Telefono: 1139473349</footer>
 
-    <input type="color" name="color" />
-    <input type="file" />
-
-    <label for="chec">Elija</label>
-    <input type="checkbox" name="check" />
-  </form>
-
-  <body>
-    <footer>Contacto: luquititas90@gmail.com</footer>
-    <footer>telefono: 1139473349</footer>
-  </body>
-  <p id="abajo">ir abajo</p>
-  <a href="#arriba">ir arriba</a>
+<p id="abajo">ir abajo</p>
+<a href="#arriba">ir arriba</a>
+</div>
+</body>
+  
 </html>
